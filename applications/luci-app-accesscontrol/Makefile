@@ -7,17 +7,12 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI Access Control Configuration
-LUCI_DEPENDS:=
+LUCI_DEPENDS:=+luci-base
 LUCI_PKGARCH:=all
 
 PKG_NAME:=luci-app-accesscontrol
 PKG_VERSION:=1
 PKG_RELEASE:=11
-
-# 安装目标
-define Build/Install
-    chmod a+x $(1)/etc/init.d/mia
-endef
 
 include ../../luci.mk
 
