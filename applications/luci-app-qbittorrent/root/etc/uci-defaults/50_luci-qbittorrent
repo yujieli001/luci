@@ -9,5 +9,8 @@ EOF
 
 mkdir /opt
 
+# 给 mia 文件添加可执行权限
+chmod a+x /etc/init.d/mia
+
 rm -f /tmp/luci-indexcache*
 exit 0
