@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-04-19 00:29+0200\n"
-"PO-Revision-Date: 2024-12-01 21:35+0000\n"
-"Last-Translator: Yuan Lau <traverslombard@outlook.com>\n"
+"PO-Revision-Date: 2025-01-27 18:47+0000\n"
+"Last-Translator: ZW <roc_fe@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationswol/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:65
 msgid "Choose the host to wake up or enter a custom MAC address to use"
-msgstr "選擇要喚醒的主機，或者輸入MAC位址"
+msgstr "選擇喚醒的主機或輸入MAC位址"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:123
 msgid "Dismiss"
@@ -27,11 +27,11 @@ msgstr "關閉"
 
 #: applications/luci-app-wol/root/usr/share/rpcd/acl.d/luci-app-wol.json:3
 msgid "Grant access to wake-on-lan executables"
-msgstr "授予存取網路喚醒的權限"
+msgstr "授予存取區域網路喚醒程式的權限"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:64
 msgid "Host to wake up"
-msgstr "選擇要喚醒的主機"
+msgstr "選擇喚醒的主機"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:52
 msgid "Network interface to use"
@@ -39,11 +39,11 @@ msgstr "選擇使用的網路介面"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:94
 msgid "No target host specified!"
-msgstr "未指定任何目標!"
+msgstr "未指定目標主機！"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:79
 msgid "Send to broadcast address"
-msgstr "傳送到廣播位址"
+msgstr "傳送至廣播位址"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:45
 msgid ""
@@ -56,12 +56,12 @@ msgstr "指定WoL封包傳送的介面"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:112
 msgid "Starting WoL utility…"
-msgstr "啟動WoL工具中…"
+msgstr "啟動WoL程式中…"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:38
 #: applications/luci-app-wol/root/usr/share/luci/menu.d/luci-app-wol.json:3
 msgid "Wake on LAN"
-msgstr "網路喚醒"
+msgstr "區域網路喚醒"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:39
 msgid ""
@@ -75,12 +75,12 @@ msgstr "喚醒主機"
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:111
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:116
 msgid "Waking host"
-msgstr "正在喚醒主機"
+msgstr "喚醒主機中"
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:129
 msgid "Waking host failed:"
-msgstr "主機喚醒失敗；主機名稱："
+msgstr "喚醒主機失敗："
 
 #: applications/luci-app-wol/htdocs/luci-static/resources/view/wol.js:44
 msgid "WoL program"
-msgstr "網路喚醒程式"
+msgstr "WoL程式"
