@@ -76,7 +76,6 @@ LUA_LIBRARYDIR = /usr/lib/lua
 LUCI_LIBRARYDIR = $(LUA_LIBRARYDIR)/luci
 UCODE_LIBRARYDIR = /usr/share/ucode/luci
 
-
 # 1: everything expect po subdir or only po subdir
 define findrev
   $(shell \
