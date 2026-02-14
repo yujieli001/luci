@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-20 20:09+0000\n"
+"PO-Revision-Date: 2025-06-20 09:25+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationssquid/pt/>\n"
@@ -8,11 +8,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: applications/luci-app-squid/luasrc/model/cbi/squid.lua:42
 msgid "Advanced Settings"
-msgstr "Configurações avançadas"
+msgstr "Definições Avançadas"
 
 #: applications/luci-app-squid/luasrc/model/cbi/squid.lua:38
 msgid "Coredump files directory"

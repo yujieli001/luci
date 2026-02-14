@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-02-07 23:08+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2025-08-03 11:02+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:272
 msgid "Action"
@@ -161,8 +161,8 @@ msgid ""
 "blocklist e.g. for guest wifi or kidsafe configurations."
 msgstr ""
 "Erzeugt eine zusätzliche DNS-Sperrliste um alles ausser Domains in der "
-"Whitelist zu blockieren. Hinweis: eine solche restriktive Sperrliste kann z."
-"B. für Gast-Wlans oder als Kindersicherung genutzt werden."
+"Whitelist zu blockieren. Hinweis: eine solche restriktive Sperrliste kann "
+"z.B. für Gast-Wlans oder als Kindersicherung genutzt werden."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:22
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:57
@@ -246,7 +246,7 @@ msgstr "Das selektive DNS-Whitelisting deaktivieren (RPZ-PASSTHRU)."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:270
 msgid "Domain"
-msgstr "Domain"
+msgstr "Domäne"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:223
 msgid "Domains"
@@ -454,7 +454,7 @@ msgid ""
 msgstr ""
 "Liste an verfügbaren Netzwerkschnittstellen um einen Adblock-Start zu "
 "triggern. Wähle \"unspecified\", um einen herkömmlichen Start-Timeout-"
-"Mechanismuss anstatt eines Netzwerk-Triggers zu verwenden."
+"Mechanismus anstatt eines Netzwerk-Triggers zu verwenden."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:422
 msgid ""

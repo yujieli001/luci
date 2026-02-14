@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-01-04 15:01+0000\n"
+"PO-Revision-Date: 2025-03-28 12:17+0000\n"
 "Last-Translator: Džiugas Januševičius <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsradicale/lt/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:268
 msgid ""
@@ -24,9 +24,9 @@ msgstr ""
 msgid ""
 "'Hostname:Port' or 'IPv4:Port' or '[IPv6]:Port' Radicale should listen on"
 msgstr ""
-"„Įrenginio (t.y skleidėjo/vedėjo) pavadinimas:Prievadas“ arba „IPv4:"
-"Prievadas“, arba „[IPv6]:Prievadas“ – „Radicale“ turėtų laukti prisijungimo/"
-"jungties ryšio"
+"„Įrenginio (t.y skleidėjo/vedėjo) pavadinimas:Prievadas“ arba "
+"„IPv4:Prievadas“, arba „[IPv6]:Prievadas“ – „Radicale“ turėtų laukti "
+"prisijungimo/jungties ryšio"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:272
 msgid "AUTO"
@@ -131,7 +131,7 @@ msgstr ""
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:508
 msgid "Directory"
-msgstr "Katalogas"
+msgstr "Katalogas/Vietovė"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:524
 msgid "Directory not exists/found !"
@@ -530,11 +530,11 @@ msgstr ""
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:89
 msgid ""
-"You can use Python's ConfigParser interpolation values %(login)s and "
-"%(path)s."
+"You can use Python's ConfigParser interpolation values %(login)s and %"
+"(path)s."
 msgstr ""
-"Jūs galite naudoti – „Python's ConfigParser“ interpoliacijos reikšmes – "
-"„%(login)s“ ir „%(path)s“."
+"Jūs galite naudoti – „Python's ConfigParser“ interpoliacijos reikšmes – „%"
+"(login)s“ ir „%(path)s“."
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:390
 msgid "crypt"

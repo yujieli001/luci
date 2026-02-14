@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-05 16:00+0000\n"
-"Last-Translator: x86_64-pc-linux-gnu <x86_64-pc-linux-gnu@proton.me>\n"
+"PO-Revision-Date: 2025-08-08 06:21+0000\n"
+"Last-Translator: zack_404 <zack40091647@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsadblock/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:272
 msgid "Action"
@@ -58,7 +58,7 @@ msgstr "進階設定"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:384
 msgid "Additional trigger delay in seconds before adblock processing begins."
-msgstr ""
+msgstr "附加觸發 Adblock 行程延遲開始秒數。"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:301
 msgid "Advanced DNS Settings"
@@ -135,7 +135,7 @@ msgstr "被封鎖的DNS請求數"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:225
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:229
 msgid "Blocked Domains"
-msgstr "封鎖的域名"
+msgstr "已封鎖域名"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:394
 msgid "Blocklist Backup"
@@ -226,7 +226,7 @@ msgstr "DNS報告"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:446
 msgid "DNS Restart Timeout"
-msgstr "DNS重新啟動逾時值"
+msgstr "DNS重新啟動逾時"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:267
 msgid "Date"
@@ -254,7 +254,7 @@ msgstr "下載期間不檢查伺服器的SSL憑證。"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:411
 msgid "Download Insecure"
-msgstr "下載不安全"
+msgstr "不安全下載"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:415
 msgid "Download Parameters"
@@ -355,7 +355,7 @@ msgstr "第五個實例"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:170
 msgid "Filter criteria like date, domain or client (optional)"
-msgstr "篩選器準則（例如：日期、域名或客戶端，可選）"
+msgstr "篩選器準則 (例如：日期、網域或用戶端，可選)"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:328
 msgid "Firewall ports that should be forced locally."
@@ -489,7 +489,7 @@ msgstr "查詢"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:82
 msgid "Query active blocklists and backups for a specific domain."
-msgstr "查詢「特定網域」的活躍封鎖清單和備份。"
+msgstr "查詢活動封鎖清單和備份中的特定網域。"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:531
 msgid ""
@@ -516,8 +516,8 @@ msgid ""
 "resources from the system. Please note: This change requires a full adblock "
 "service restart to take effect."
 msgstr ""
-"降低Adblock後台優先權以耗費更少的系統資源；請注意：此變更需要您完全重新啟動"
-"Adblock服務後才能生效。"
+"降低Adblock背景處理程序優先權以耗費更少的系統資源。請注意：此變更需要您完全重"
+"新啟動Adblock服務後才能生效。"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:198
 msgid "Refresh"
@@ -677,7 +677,7 @@ msgstr "DNS相關報告檔案的目標目錄。"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:398
 msgid "Target directory for blocklist backups."
-msgstr "攔截清單備份的目標目錄。"
+msgstr "封鎖清單備份儲存的目錄。"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:432
 msgid "Target directory for the generated blocklist 'adb_list.overall'."

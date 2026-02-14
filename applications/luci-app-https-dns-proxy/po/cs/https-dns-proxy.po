@@ -1,34 +1,38 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-08 22:10+0000\n"
-"Last-Translator: Milan <cirhanmilan@seznam.cz>\n"
+"PO-Revision-Date: 2025-05-12 07:34+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationshttps-dns-proxy/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:269
 msgid "%s%s%s proxy at %s on port %s.%s"
-msgstr "port"
+msgstr "%s%s%s proxy na %s na portu %s.%s"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:261
 msgid "%s%s%s proxy on port %s.%s"
-msgstr ""
+msgstr "%s%s%s proxy na portu %s.%s"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:148
 msgid ""
 "Blocks access to Mozilla Encrypted resolvers, forcing local devices to use "
 "router for DNS resolution (%smore information%s)."
 msgstr ""
+"Blokuje přístup k překladům Mozilla Encrypted, vynucující aby lokální "
+"zařízení používaly pro překlad DNS směrovače (%sdalší informace%s)."
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:132
 msgid ""
 "Blocks access to iCloud Private Relay resolvers, forcing local devices to "
 "use router for DNS resolution (%smore information%s)."
 msgstr ""
+"Blokuje přístup k překladům iCloud Private Relay, vynucující aby lokální "
+"zařízení používaly pro překlad DNS směrovače (%sdalší informace%s)."
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:328
 msgid "Bootstrap DNS"
@@ -44,7 +48,7 @@ msgstr ""
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:355
 msgid "DSCP Codepoint"
-msgstr ""
+msgstr "Kódový bod DSCP"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:387
 msgid "Disable"
@@ -52,11 +56,11 @@ msgstr "Zakázat"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:381
 msgid "Disabling %s service"
-msgstr ""
+msgstr "Vypínání služby %s"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:67
 msgid "Do not update configs"
-msgstr ""
+msgstr "Neaktualizovat nastavení"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:368
 msgid "Enable"
@@ -64,43 +68,47 @@ msgstr "Povolit"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:362
 msgid "Enabling %s service"
-msgstr "Aktivuji službu %s"
+msgstr "Povoluje se služba %s"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:58
 msgid "Force DNS Ports"
-msgstr ""
+msgstr "Vynutit DNS porty"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:182
 msgid "Force DNS ports:"
-msgstr ""
+msgstr "Vynutit DNS porty:"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:115
 msgid "Force Router DNS"
-msgstr ""
+msgstr "Vynutit DNS směrovače"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:124
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:139
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:158
 msgid "Force Router DNS server to all local devices"
-msgstr ""
+msgstr "Vynucovat DNS server směrovače všem místním zařízením"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:388
 msgid "Force use of HTTP/1"
-msgstr ""
+msgstr "Vynutit používání HTTP/1"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:400
 msgid "Force use of IPv6 DNS resolvers"
-msgstr ""
+msgstr "Vynutit použití IPv6 DNS překladů"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:117
 msgid ""
 "Forces Router DNS use on local devices, also known as DNS Hijacking. Only "
 "works on `lan` interface by default (%smore information%s)."
 msgstr ""
+"Vynucuje používání DNS ze směrovače na lokálních zařízeních, známé také jako "
+"únos DNS. Ve výchozím stavu funguje pouze na rozhraní `lan` (%sdalší "
+"informace%s)."
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/rpcd/acl.d/luci-app-https-dns-proxy.json:3
 msgid "Grant UCI and file access for luci-app-https-dns-proxy"
 msgstr ""
+"Udělit luci-app-https-dns-proxy přístup do UCI nastavování a k souborům"
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/luci/menu.d/luci-app-https-dns-proxy.json:3
 msgid "HTTPS DNS Proxy"
@@ -108,19 +116,19 @@ msgstr "HTTPS DNS Proxy"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:48
 msgid "HTTPS DNS Proxy - Configuration"
-msgstr ""
+msgstr "HTTPS DNS proxy – nastavení"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:185
 msgid "HTTPS DNS Proxy - Instances"
-msgstr ""
+msgstr "HTTPS DNS proxy – instance"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:172
 msgid "HTTPS DNS Proxy - Status"
-msgstr ""
+msgstr "HTTPS DNS proxy – stav"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:11
 msgid "HTTPS DNS Proxy Instances"
-msgstr ""
+msgstr "Instance HTTPS DNS proxy"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:57
 msgid ""
@@ -128,59 +136,65 @@ msgid ""
 "will be automatically updated to use selected DoH providers (%smore "
 "information%s)."
 msgstr ""
+"Pokud je vybraná volba aktualizovat, %ssekce „DNS přeposílání“ DHCP a DNS%s "
+"bude automaticky aktualizována, aby používalo vybrané poskytovatele DoH "
+"(%sdalší informace%s)."
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:157
 msgid "Let local devices use Mozilla Private Relay"
-msgstr ""
+msgstr "Umožnit místním zařízením používat Mozilla Private Relay"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:138
 msgid "Let local devices use iCloud Private Relay"
-msgstr ""
+msgstr "Umožnit místním zařízením používat iCloud Private Relay"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:123
 msgid "Let local devices use their own DNS servers if set"
 msgstr ""
+"Nechat lokální zařízení používat své vlastní DNS servery, pokud je mají "
+"nastavené"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:333
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:56
 msgid "Listen Address"
-msgstr ""
+msgstr "Adresa na které očekávat spojení"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:339
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:57
 msgid "Listen Port"
-msgstr ""
+msgstr "Port na kterém očekávat spojení"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:367
 msgid "Logging File Path"
-msgstr ""
+msgstr "Popis umístění souboru záznamu událostí"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:361
 msgid "Logging Verbosity"
-msgstr ""
+msgstr "Výřečnost záznamu událostí"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:55
 msgid "Name / Type"
-msgstr ""
+msgstr "Název/typ"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:198
 msgid "Not installed or not found"
-msgstr "Není instalováno nebo nenalezeno"
+msgstr "Není nainstalováno nebo nenalezeno"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:261
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:293
 msgid "Parameter"
-msgstr ""
+msgstr "Parametr"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:166
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:175
 msgid ""
 "Please note that %s is not supported on this system (%smore information%s)."
 msgstr ""
+"Uvědomte si, že %s není na tomto systému podporováno (%sdalší informace%s)."
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:372
 msgid "Polling Interval"
-msgstr ""
+msgstr "Interval dotazování"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:227
 msgid "Provider"
@@ -188,11 +202,11 @@ msgstr "Poskytovatel"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:378
 msgid "Proxy Server"
-msgstr ""
+msgstr "Proxy server"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:330
 msgid "Restart"
-msgstr "Restart"
+msgstr "Restartovat"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:324
 msgid "Restarting %s service"
@@ -200,11 +214,11 @@ msgstr "Restartuje se služba %s"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:350
 msgid "Run As Group"
-msgstr ""
+msgstr "Spustit jako skupina"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:345
 msgid "Run As User"
-msgstr ""
+msgstr "Spustit jako uživatel"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:214
 msgid "See the %sREADME%s for details."
@@ -212,7 +226,7 @@ msgstr "Podrobnosti naleznete v %sREADME%s."
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:93
 msgid "Select the DNSMASQ Configs to update"
-msgstr ""
+msgstr "Vyberte DNSMASQ nastavení, která aktualizovat"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:413
 msgid "Service Control"
@@ -220,7 +234,7 @@ msgstr "Řízení služby"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:212
 msgid "Service Instances"
-msgstr ""
+msgstr "Instance služby"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:176
 msgid "Service Status"
@@ -228,11 +242,11 @@ msgstr "Stav služby"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:311
 msgid "Start"
-msgstr "Start"
+msgstr "Spustit"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:305
 msgid "Starting %s service"
-msgstr "Start služby %s"
+msgstr "Startuje se služba %s"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:349
 msgid "Stop"
@@ -244,48 +258,48 @@ msgstr "Zastavuje se služba %s"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:105
 msgid "There are no active instances."
-msgstr ""
+msgstr "Nejsou zde žádné aktivní instance."
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:223
 msgid "Unknown"
-msgstr ""
+msgstr "Neznámý"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:55
 msgid "Update DNSMASQ Config on Start/Stop"
-msgstr ""
+msgstr "Aktualizovat nastavení DNSMASQ při spuštění/zastavení"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:65
 msgid "Update all configs"
-msgstr ""
+msgstr "Zaktualizovat veškerá nastavení"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:66
 msgid "Update select configs"
-msgstr ""
+msgstr "Zaktualizovat označená nastavení"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:383
 msgid "Use HTTP/1"
-msgstr ""
+msgstr "Používat HTTP/1"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:394
 msgid "Use IPv6 resolvers"
-msgstr ""
+msgstr "Používat IPv6 překlady"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:399
 msgid "Use any family DNS resolvers"
-msgstr ""
+msgstr "Použít DNS překlad libovolné generace"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:387
 msgid "Use negotiated HTTP version"
-msgstr ""
+msgstr "Použít vyjednanou verzi HTTP"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:180
 msgid "Version %s - Running."
-msgstr ""
+msgstr "Verze %s – spuštěné."
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:192
 msgid "Version %s - Stopped (Disabled)."
-msgstr ""
+msgstr "Verze %s – zastaveno (zakázáno)."
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:190
 msgid "Version %s - Stopped."
-msgstr ""
+msgstr "Verze %s – zastavené."

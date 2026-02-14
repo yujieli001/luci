@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-02-25 10:26+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2025-07-15 10:11+0000\n"
+"Last-Translator: Stefan Bjornelund the Gnome "
+"<stefan.bjornelund.gnome@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:76
 msgid "-- AP Selection --"
@@ -391,10 +392,10 @@ msgstr "Överblick"
 msgid ""
 "Overview of all configured uplinks for travelmate. You can edit, remove or "
 "prioritize existing uplinks by drag &#38; drop and scan for new ones.<br /> "
-"The currently used uplink connection is emphasized in <span style=\"color:"
-"rgb(51, 119, 204);font-weight:bold\">blue</span>, an encrypted VPN uplink "
-"connection is emphasized in <span style=\"color:rgb(68, 170, 68);font-weight:"
-"bold\">green</span>."
+"The currently used uplink connection is emphasized in <span "
+"style=\"color:rgb(51, 119, 204);font-weight:bold\">blue</span>, an encrypted "
+"VPN uplink connection is emphasized in <span style=\"color:rgb(68, 170, "
+"68);font-weight:bold\">green</span>."
 msgstr ""
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:421
@@ -737,7 +738,7 @@ msgstr ""
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:323
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:952
 msgid "WPA Ent. (CCMP)"
-msgstr ""
+msgstr "WPA Ent. (CCMP)"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:324
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:953
